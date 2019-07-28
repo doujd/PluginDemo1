@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/mBtnLoadPlugin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="加载插件" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/mBtnStartProxy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="跳转到插件" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/mBtnSendBroadCast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="向插件发送静态广播" />
+
+</LinearLayout>
